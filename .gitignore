@@ -1,0 +1,81 @@
+# ------------------
+# Python
+# ------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Build / packaging
+build/
+dist/
+*.egg
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Cache
+*.log
+*.out
+*.err
+*.dat
+*.pkl
+*.h5
+*.pt
+*.pth
+*.ckpt
+.cache/
+__pypackages__/
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.dmypy.json
+.dSYM/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit & app artifacts
+.streamlit/
+*.db
+*.sqlite3
+*.wav
+*.mp3
+*.ogg
+*.webm
+*.m4a
+*.tmp
+*.bak
+
+# TTS / Whisper temporary dirs
+st_v2v_*/
+st_v2v_out_*/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Groq key
+groq_api_key.txt
