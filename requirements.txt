@@ -1,0 +1,9 @@
+   streamlit==1.37.0
+   groq==0.11.0
+   audio-recorder-streamlit==0.0.8
+   TTS==0.22.0
+   torch==2.1.0
+   soundfile==0.12.1
+   numpy==1.22.0
+   openai-whisper==20240930
+   ffmpeg-python==0.2.0
